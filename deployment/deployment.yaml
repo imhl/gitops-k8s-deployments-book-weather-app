@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: zurich-weather-app
-        image: suss001/gitops-k8s-deployments:main
+        image: suss001/gitops-k8s-deployments:latest
         ports:
         - containerPort: 3000
         # resources:
